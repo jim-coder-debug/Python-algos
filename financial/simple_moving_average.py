@@ -9,7 +9,6 @@ Reference: https://en.wikipedia.org/wiki/Moving_average
 
 from collections.abc import Sequence
 
-
 def simple_moving_average(
     data: Sequence[float], window_size: int
 ) -> list[float | None]:
@@ -51,7 +50,7 @@ if __name__ == "__main__":
 
     doctest.testmod()
 
-    # Example data (replace with your own time series data)
+    # Example data (replace with your own time series-data)
     data = [10, 12, 15, 13, 14, 16, 18, 17, 19, 21]
 
     # Specify the window size for the SMA
